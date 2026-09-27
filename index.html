@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammad Ruhul Amin (Rafi) — EEE Portfolio & Engineering Projects</title>
+  <meta name="description" content="Personal portfolio and engineering projects of Mohammad Ruhul Amin (Rafi), EEE student at Jamalpur Science & Technology University (JSTU), drone tech enthusiast, and simulation researcher.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Cosmic Canvas Background Animation -->
+  <canvas id="cosmicCanvas" class="cosmic-canvas" aria-hidden="true"></canvas>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#" class="brand-logo">
+        <img src="assets/images/profile.jpg" alt="Rafi" class="brand-avatar">
+        <span>Rafi</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#personal-interests">Interests</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="#contact" class="btn-header">Get in Touch</a>
+      </div>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-text-content">
+          <div class="hero-badge-wrap">
+            <span class="indicator"></span>
+            <span class="text">Dept. of EEE · JSTU | Session 2023–24</span>
+          </div>
+
+          <h1 class="hero-title">
+            Mohammad<br>
+            <span class="gradient-text">Ruhul Amin.</span>
+          </h1>
+
+          <div class="hero-subtitle">
+            <span>Electrical & Electronic Engineering</span>
+            <span>·</span>
+            <span class="tag-eee">Drone Systems & Simulation</span>
+          </div>
+
+          <p class="hero-bio">
+            Undergraduate student and tech explorer at <strong>Jamalpur Science & Technology University</strong>. Fascinated by <strong>circuit simulation</strong>, <strong>control systems</strong>, renewable energy harvesting, and the intersection of engineering with <strong>drone aerial technology</strong>.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn-primary">
+              <span>Explore Projects</span>
+              <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+            </a>
+            <a href="#contact" class="btn-secondary">
+              <span>Contact Me</span>
+              <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+            </a>
+          </div>
+
+          <div class="hero-stats-row">
+            <div class="stat-box">
+              <span class="number">5.00</span>
+              <span class="label">SSC & HSC GPA</span>
+            </div>
+            <div class="stat-box">
+              <span class="number">JSTU</span>
+              <span class="label">EEE Session 23-24</span>
+            </div>
+            <div class="stat-box">
+              <span class="number">3+</span>
+              <span class="label">Featured Projects</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="profile-card-glow">
+            <div class="profile-image-box">
+              <img src="assets/images/profile.jpg" alt="Mohammad Ruhul Amin (Rafi)">
+              <div class="profile-overlay-badge role-chips-container">
+                <span class="role-chip cyan"><span class="chip-dot"></span>Engineer</span>
+                <span class="role-chip amber"><span class="chip-dot"></span>Photographer</span>
+                <span class="role-chip emerald"><span class="chip-dot"></span>Explorer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">01 — About Me</span>
+          <h2 class="section-title">Curious by nature.<br>Driven by engineering.</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am an undergraduate student in the Department of Electrical and Electronic Engineering (EEE) at <strong>Jamalpur Science & Technology University (JSTU)</strong>. Throughout my academic journey, I have cultivated a deep curiosity for understanding how electronic circuits, control algorithms, and physical hardware converge to solve real-world problems.
+            </p>
+            <p>
+              Beyond the classroom, I am intensely passionate about <strong>drone technology and aerial robotics</strong>. The synergy between aerodynamics, motor speed controllers, wireless telemetry, and high-altitude perspective allows me to see engineering and visual storytelling from an entirely fresh angle.
+            </p>
+            <p>
+              Whether simulating complex control loops in MATLAB/Simulink, prototyping motor test benches in the EEE laboratory, or capturing perspective through photography, I strive for precision, innovation, and continuous growth.
+            </p>
+          </div>
+
+          <div class="about-features">
+            <div class="feature-box">
+              <h4>
+                <svg width="20" height="20" fill="none" stroke="var(--cyan-400)" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                Circuits & Control Systems
+              </h4>
+              <p>Designing and simulating dynamic electrical circuits, feedback loops, and automated sensing systems.</p>
+            </div>
+
+            <div class="feature-box">
+              <h4>
+                <svg width="20" height="20" fill="none" stroke="var(--emerald-400)" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
+                Drone & Aerial Innovation
+              </h4>
+              <p>Investigating multi-rotor flight dynamics, electronic speed control, and aerial sensor integration.</p>
+            </div>
+
+            <div class="feature-box">
+              <h4>
+                <svg width="20" height="20" fill="none" stroke="var(--amber-400)" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path></svg>
+                Perspective & Photography
+              </h4>
+              <p>Merging the analytical engineering mindset with artistic visual storytelling through high-perspective lenses.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">02 — Expertise & Tools</span>
+          <h2 class="section-title">Technical capabilities & toolset.</h2>
+          <p class="section-desc">Tools and engineering disciplines I leverage for system design, laboratory experimentation, and project execution.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-category-card">
+            <div class="skill-icon-wrap">
+              <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+            </div>
+            <h3>Simulation & Modeling</h3>
+            <p>Mathematical modeling, closed-loop feedback controllers, and simulation of electrical and electromechanical systems.</p>
+            <div class="skill-pill-list">
+              <span class="skill-pill">MATLAB</span>
+              <span class="skill-pill">Simulink</span>
+              <span class="skill-pill">Circuit Simulation</span>
+              <span class="skill-pill">Control Systems</span>
+              <span class="skill-pill">C / C++ Basics</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="skill-icon-wrap emerald">
+              <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg>
+            </div>
+            <h3>Hardware & Embedded</h3>
+            <p>Hands-on circuit construction, sensor telemetry, motor dynamos, and power regulation circuits.</p>
+            <div class="skill-pill-list">
+              <span class="skill-pill">Arduino</span>
+              <span class="skill-pill">Sensors & Relays</span>
+              <span class="skill-pill">DC Coupled Dynamos</span>
+              <span class="skill-pill">Power Recovery</span>
+              <span class="skill-pill">Breadboarding</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="skill-icon-wrap amber">
+              <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+            </div>
+            <h3>Drone & Creative Tech</h3>
+            <p>Aerial system fundamentals, flight mechanics, aerial cinematography, and visual perspective.</p>
+            <div class="skill-pill-list">
+              <span class="skill-pill">Drone Technology</span>
+              <span class="skill-pill">Flight Mechanics</span>
+              <span class="skill-pill">Aerial Photography</span>
+              <span class="skill-pill">Visual Storytelling</span>
+              <span class="skill-pill">Field Exploration</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dedicated Projects Section -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">03 — Engineering Portfolio</span>
+          <h2 class="section-title">Featured Projects & Case Studies.</h2>
+          <p class="section-desc">In-depth laboratory research, software simulations, and hardware prototypes developed at JSTU.</p>
+        </div>
+
+        <!-- Filter bar -->
+        <div class="projects-filter-bar">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="simulation">Simulation & Control</button>
+          <button class="filter-btn" data-filter="hardware">Hardware & Energy</button>
+          <button class="filter-btn" data-filter="automation">IoT & Automation</button>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- PROJECT 1: Automated Water Tank Level Control System -->
+          <article class="project-card" data-category="simulation">
+            <div class="project-thumb-box">
+              <img src="assets/images/water_tank_presentation.png" alt="Automated Water Tank Level Control System">
+              <span class="project-card-badge">Simulation · MATLAB</span>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta-top">
+                <span class="project-category">Control Systems</span>
+                <span class="project-course">EEE2108 Sessional</span>
+              </div>
+              <h3 class="project-title">Automated Water Tank Level Control System</h3>
+              <p class="project-desc">
+                Mathematical modeling and closed-loop feedback simulation in MATLAB & Simulink. Designed to regulate water inflow, monitor liquid elevation in real-time, and trigger automated overflow protection.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">MATLAB</span>
+                <span class="tech-tag">Simulink</span>
+                <span class="tech-tag">Closed Loop</span>
+                <span class="tech-tag">Level Sensors</span>
+                <span class="tech-tag">Overflow Protection</span>
+              </div>
+              <div class="project-card-footer">
+                <div class="team-indicator">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                  <span>Team of 6 · JSTU EEE</span>
+                </div>
+                <a href="#" class="btn-project-detail" data-modal-target="waterTankModal">
+                  <span>View Case Study</span>
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: Smart Regenerative Braking System -->
+          <article class="project-card" data-category="hardware">
+            <div class="project-thumb-box">
+              <img src="assets/images/regenerative_braking_hardware.png" alt="Smart Regenerative Braking System Hardware Setup">
+              <span class="project-card-badge lab-badge">Hardware Prototype</span>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta-top">
+                <span class="project-category">Energy & Automotive</span>
+                <span class="project-course">EEE Lab Prototype</span>
+              </div>
+              <h3 class="project-title">Smart Regenerative Braking System</h3>
+              <p class="project-desc">
+                Physical hardware prototype capturing kinetic energy during vehicle deceleration. Utilizes a dual-motor coupled dynamo setup, voltage regulation, and relay logic to replenish battery reserves and optimize vehicle efficiency.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Hardware Rig</span>
+                <span class="tech-tag">Coupled DC Dynamo</span>
+                <span class="tech-tag">Arduino</span>
+                <span class="tech-tag">Relay Switching</span>
+                <span class="tech-tag">Power Recovery</span>
+              </div>
+              <div class="project-card-footer">
+                <a href="https://www.facebook.com/share/v/14nFrAnRvMu/" target="_blank" rel="noopener noreferrer" class="btn-video-watch">
+                  <svg width="12" height="12" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                  <span>Watch Demo Video</span>
+                </a>
+                <a href="#" class="btn-project-detail" data-modal-target="regenBrakingModal">
+                  <span>View Setup</span>
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: Automatic Plant Watering System -->
+          <article class="project-card" data-category="automation">
+            <div class="project-thumb-box">
+              <img src="assets/images/plant_watering_prototype.jpg" alt="Automatic Plant Watering System Hardware Prototype">
+              <span class="project-card-badge lab-badge">Hardware Prototype</span>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta-top">
+                <span class="project-category">Automation & IoT</span>
+                <span class="project-course">Embedded Systems</span>
+              </div>
+              <h3 class="project-title">Automatic Plant Watering System</h3>
+              <p class="project-desc">
+                Smart automated irrigation device monitoring soil volumetric water content in real-time. Automatically actuates a submersible pump to provide precision hydration without human intervention or water wastage.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Soil Moisture Sensor</span>
+                <span class="tech-tag">Submersible Pump</span>
+                <span class="tech-tag">Relay Module</span>
+                <span class="tech-tag">Automated Control</span>
+              </div>
+              <div class="project-card-footer">
+                <div class="team-indicator">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                  <span>Completed & Tested</span>
+                </div>
+                <a href="#" class="btn-project-detail" data-modal-target="plantWateringModal">
+                  <span>Project Specs</span>
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+        <!-- Personal Interests Section (Philosophy & Photography) -->
+    <section class="personal-interests-section" id="personal-interests">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">04 — Personal Pursuits</span>
+          <h2 class="section-title">Personal Interests: Philosophy & Photography.</h2>
+          <p class="section-desc">Where engineering analytical rigor meets contemplative philosophy and the visual art of photography.</p>
+        </div>
+
+        <!-- 1. PHILOSOPHY SUB-SECTION -->
+        <div class="philosophy-container">
+          <div class="sub-section-header">
+            <div class="sub-section-title-wrap">
+              <h3>
+                <svg width="24" height="24" fill="none" stroke="var(--cyan-400)" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                Philosophy of Engineering & Life
+              </h3>
+              <p class="sub-section-desc">How circuits, flight dynamics, and daily reflection shape my approach to problem solving and living.</p>
+            </div>
+          </div>
+
+          <div class="philosophy-grid">
+            <div class="philosophy-quote-card">
+              <div class="quote-body">
+                “In electrical engineering, a single loose wire breaks the circuit. In life, a single stubborn perspective blinds the mind. Curiosity is the current that keeps both systems alive.”
+              </div>
+              <div class="quote-author">
+                <span class="author-dot"></span>
+                <div class="author-info">
+                  <h5>Mohammad Ruhul Amin (Rafi)</h5>
+                  <p>EEE Undergraduate · JSTU</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="philosophy-pillars">
+              <div class="pillar-item">
+                <div class="pillar-header">
+                  <span class="pillar-num">01</span>
+                  <h4 class="pillar-title">Circuit Certainty & Organic Reality</h4>
+                </div>
+                <p class="pillar-text">
+                  In circuits we solve with deterministic equations and logic gates; but reality is analog, fluid, and deeply human. Philosophy reminds me to embrace the organic beauty that machines can only ever support.
+                </p>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-header">
+                  <span class="pillar-num">02</span>
+                  <h4 class="pillar-title">The Altitude Principle (Perspective)</h4>
+                </div>
+                <p class="pillar-text">
+                  From ground level, obstacles look like insurmountable barriers. But elevate your vantage point 50 meters into the sky with a drone, and those same obstacles become natural parts of a larger harmonious landscape. When feeling stuck, elevate your perspective.
+                </p>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-header">
+                  <span class="pillar-num">03</span>
+                  <h4 class="pillar-title">Patience in Light & Research</h4>
+                </div>
+                <p class="pillar-text">
+                  In photography, rushing ruins the shot — you must patiently wait for the golden hour. In engineering, breakthrough solutions cannot be rushed; they require steady experimentation, careful observation, and persistent dedication.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+                <!-- 2. PHOTOGRAPHY FEATURE GATEWAY (LINKS TO DEDICATED GALLERY PAGE) -->
+        <div class="photo-feature-gateway" id="photography">
+          <div class="photo-gateway-card">
+            <div class="photo-gateway-media">
+              <img src="assets/images/gallery/photo_12.jpg" alt="Featured Photography Frame — Horse Cart Journey" class="gateway-main-img">
+              <div class="gateway-img-overlay">
+                <span class="gateway-chip">Featured Frame</span>
+                <h4>Horse Cart Journey · Rural Trail</h4>
+              </div>
+            </div>
+
+            <div class="photo-gateway-content">
+              <div class="gateway-meta-pill">
+                <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                <span>Visual Perspectives · 23 Original Works</span>
+              </div>
+
+              <h3 class="gateway-title">Moments & Light Through The Lens</h3>
+
+              <p class="gateway-text">
+                Beyond electrical equations and control loops, photography offers a medium of stillness. This curated collection spans 23 original frames exploring quiet village pathways, lush forest avenues, and dramatic evening horizons across rural Bangladesh.
+              </p>
+
+              <!-- Mini preview strip of 3 sample photos -->
+              <div class="gateway-preview-strip">
+                <div class="mini-thumb"><img src="assets/images/gallery/photo_1.jpg" alt="Riverside Tranquility"></div>
+                <div class="mini-thumb"><img src="assets/images/gallery/photo_6.jpg" alt="Rubber Forest"></div>
+                <div class="mini-thumb"><img src="assets/images/gallery/photo_10.jpg" alt="Crimson Sunset"></div>
+                <div class="mini-thumb more-count">+20</div>
+              </div>
+
+              <div class="gateway-action-row">
+                <a href="photography.html" class="btn-primary">
+                  <span>Explore Full Gallery (23 Photos)</span>
+                  <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">05 — Academic Journey</span>
+          <h2 class="section-title">Education & Credentials.</h2>
+          <p class="section-desc">A track record of academic dedication and continuous pursuit of engineering excellence.</p>
+        </div>
+
+        <div class="education-timeline">
+          <div class="timeline-card">
+            <div class="timeline-content">
+              <h3>Jamalpur Science & Technology University (JSTU)</h3>
+              <p class="degree">B.Sc. in Electrical and Electronic Engineering (EEE)</p>
+              <p class="details">Department of EEE · Academic Session 2023–24 · Focusing on circuit analysis, simulation, control systems, and electronics.</p>
+            </div>
+            <div class="timeline-badge">2023 – Present</div>
+          </div>
+
+          <div class="timeline-card">
+            <div class="timeline-content">
+              <h3>Shahid Syed Nazrul Islam College, Mymensingh</h3>
+              <p class="degree">Higher Secondary Certificate (HSC) — Science</p>
+              <p class="details">Outstanding academic result: <strong style="color:var(--text-main);">GPA 5.00 / 5.00</strong> (Golden A+).</p>
+            </div>
+            <div class="timeline-badge">2022</div>
+          </div>
+
+          <div class="timeline-card">
+            <div class="timeline-content">
+              <h3>Mamun Smrity Public School</h3>
+              <p class="degree">Secondary School Certificate (SSC) — Science</p>
+              <p class="details">Excellence in fundamental sciences: <strong style="color:var(--text-main);">GPA 5.00 / 5.00</strong> (Golden A+).</p>
+            </div>
+            <div class="timeline-badge">2020</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume & CV Section -->
+    <section id="resume" class="resume-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">06 — Curriculum Vitae</span>
+          <h2 class="section-title">My Resume & Professional Profile.</h2>
+          <p class="section-desc">
+            A comprehensive record of my academic honors, hands-on engineering research, technical toolsets, and applied hardware projects. Download the official PDF or explore highlights below.
+          </p>
+        </div>
+
+        <div class="resume-showcase-grid">
+          <!-- Left: Information, Highlights & Actions -->
+          <div class="resume-info-panel">
+            <div class="resume-profile-card">
+              <div class="profile-meta-top">
+                <div class="avatar-badge">
+                  <img src="assets/images/profile.jpg" alt="Mohammad Ruhul Amin">
+                </div>
+                <div>
+                  <h3 class="resume-name">Mohammad Ruhul Amin (Rafi)</h3>
+                  <p class="resume-role">B.Sc. in Electrical and Electronic Engineering</p>
+                  <span class="resume-inst">Jamalpur Science and Technology University (JSTU)</span>
+                </div>
+              </div>
+
+              <div class="resume-status-badge">
+                <span class="pulsing-green-dot"></span>
+                <span>Active 2nd Year Student · Session 2023–24</span>
+              </div>
+
+              <div class="resume-contact-pills">
+                <a href="mailto:mohammadrafi11375@gmail.com" class="resume-pill">
+                  <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                  <span>mohammadrafi11375@gmail.com</span>
+                </a>
+                <a href="https://wa.me/8801641386740" target="_blank" rel="noopener noreferrer" class="resume-pill">
+                  <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.586 1.761.914 2.79.914 3.179 0 5.767-2.587 5.767-5.766.001-3.187-2.575-5.77-5.766-5.77zm3.397 8.188c-.144.405-.837.774-1.17.824-.312.045-.694.072-2.194-.551-1.921-.796-3.155-2.753-3.251-2.881-.096-.128-.772-1.027-.772-1.959s.484-1.391.657-1.579c.174-.188.38-.235.507-.235.126 0 .253.003.364.008.117.006.273-.044.427.327.159.385.546 1.332.593 1.43.048.097.08.21.016.338-.063.129-.095.21-.19.321-.096.112-.201.25-.287.336-.096.096-.197.2-.085.393.111.193.493.813 1.058 1.317.728.648 1.341.849 1.534.945.192.096.305.08.418-.048.113-.129.484-.563.613-.757.129-.193.257-.161.433-.096.177.064 1.125.53 1.317.627.193.096.321.144.369.225.047.08.047.469-.097.874z"/></svg>
+                  <span>01641386740</span>
+                </a>
+                <a href="https://github.com/ruhulamin-jstu" target="_blank" rel="noopener noreferrer" class="resume-pill">
+                  <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                  <span>github.com/ruhulamin-jstu</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Key Qualifications & Highlights -->
+            <div class="resume-highlights-box">
+              <h4>Key Academic & Technical Highlights</h4>
+              <ul class="resume-bullet-list">
+                <li>
+                  <span class="bullet-icon">🎓</span>
+                  <div>
+                    <strong>Dual Golden GPA 5.00 / 5.00</strong>
+                    <p>Secured perfect scores across both SSC and HSC examinations in Science group.</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="bullet-icon">⚙️</span>
+                  <div>
+                    <strong>Control Systems & Simulink Modeling</strong>
+                    <p>Designed and simulated closed-loop automated water tank liquid level control systems.</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="bullet-icon">🔋</span>
+                  <div>
+                    <strong>Regenerative Braking Power Recovery</strong>
+                    <p>Engineered hardware prototype coupling dual DC motors with relay and buck-boost regulation.</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="bullet-icon">🛸</span>
+                  <div>
+                    <strong>Robotics, Drones & Sensor Automation</strong>
+                    <p>Hands-on work in drone aerodynamics, flight controllers, and IoT automated irrigation systems.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Download CTA Box -->
+            <div class="resume-download-card">
+              <div class="download-card-header">
+                <div>
+                  <span class="doc-badge">Official Document</span>
+                  <h4>Download Curriculum Vitae</h4>
+                  <p>Curated 2-column executive resume in print-ready PDF format (A4 layout).</p>
+                </div>
+                <div class="file-size-badge">PDF · 394 KB</div>
+              </div>
+
+              <div class="resume-action-buttons">
+                <a href="assets/Mohammad_Ruhul_Amin_CV.pdf" download="Mohammad_Ruhul_Amin_CV.pdf" class="btn-primary btn-download-cv">
+                  <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                  </svg>
+                  <span>Download CV (PDF)</span>
+                </a>
+                <a href="assets/Mohammad_Ruhul_Amin_CV.pdf" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+                  <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                  </svg>
+                  <span>Open in Browser</span>
+                </a>
+                <button type="button" class="btn-ghost" data-modal-target="cvModal">
+                  <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+                  </svg>
+                  <span>Quick Preview</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Document Preview Card -->
+          <div class="resume-preview-panel">
+            <div class="cv-preview-frame" data-modal-target="cvModal" title="Click to view full screen">
+              <div class="cv-frame-toolbar">
+                <div class="toolbar-dots">
+                  <span class="tb-dot red"></span>
+                  <span class="tb-dot yellow"></span>
+                  <span class="tb-dot green"></span>
+                </div>
+                <div class="toolbar-title">
+                  <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                  </svg>
+                  <span>Mohammad_Ruhul_Amin_CV.pdf</span>
+                </div>
+                <div class="toolbar-zoom-hint">
+                  <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path></svg>
+                  <span>Click to Enlarge</span>
+                </div>
+              </div>
+
+              <div class="cv-frame-body">
+                <img src="assets/images/cv_preview.png" alt="Mohammad Ruhul Amin CV Document Preview" class="cv-preview-img">
+                <div class="cv-preview-overlay">
+                  <span class="overlay-btn">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path>
+                    </svg>
+                    <span>Click to View Full Size</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <p class="cv-caption-note">
+              Designed following executive dual-column layout with high-contrast typography and comprehensive project details.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card-box">
+          <span class="section-tag">07 — Connect</span>
+          <h2>Let’s build something together.</h2>
+          <p>
+            Interested in collaboration, circuit simulation research, drone engineering, or simply want to connect? Reach out anytime!
+          </p>
+
+          <!-- Contact Channels Grid -->
+          <div class="contact-channels-grid">
+            <!-- WhatsApp -->
+            <a href="https://wa.me/8801641386740" target="_blank" rel="noopener noreferrer" class="contact-channel-card whatsapp">
+              <div class="channel-icon-box">
+                <svg width="26" height="26" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.586 1.761.914 2.79.914 3.179 0 5.767-2.587 5.767-5.766.001-3.187-2.575-5.77-5.766-5.77zm3.397 8.188c-.144.405-.837.774-1.17.824-.312.045-.694.072-2.194-.551-1.921-.796-3.155-2.753-3.251-2.881-.096-.128-.772-1.027-.772-1.959s.484-1.391.657-1.579c.174-.188.38-.235.507-.235.126 0 .253.003.364.008.117.006.273-.044.427.327.159.385.546 1.332.593 1.43.048.097.08.21.016.338-.063.129-.095.21-.19.321-.096.112-.201.25-.287.336-.096.096-.197.2-.085.393.111.193.493.813 1.058 1.317.728.648 1.341.849 1.534.945.192.096.305.08.418-.048.113-.129.484-.563.613-.757.129-.193.257-.161.433-.096.177.064 1.125.53 1.317.627.193.096.321.144.369.225.047.08.047.469-.097.874z"/></svg>
+              </div>
+              <div class="channel-details">
+                <span class="channel-type">WhatsApp</span>
+                <span class="channel-contact">01641386740</span>
+              </div>
+              <span class="channel-arrow">Chat ↗</span>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:mohammadrafi11375@gmail.com" class="contact-channel-card email">
+              <div class="channel-icon-box">
+                <svg width="26" height="26" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+              </div>
+              <div class="channel-details">
+                <span class="channel-type">Direct Email</span>
+                <span class="channel-contact">mohammadrafi11375@gmail.com</span>
+              </div>
+              <span class="channel-arrow">Send Mail ↗</span>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/ruhulamin-jstu" target="_blank" rel="noopener noreferrer" class="contact-channel-card github">
+              <div class="channel-icon-box">
+                <svg width="26" height="26" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              </div>
+              <div class="channel-details">
+                <span class="channel-type">GitHub Profile</span>
+                <span class="channel-contact">github.com/ruhulamin-jstu</span>
+              </div>
+              <span class="channel-arrow">Follow ↗</span>
+            </a>
+          </div>
+
+          <div class="contact-links" style="margin-top: 36px;">
+            <a href="https://wa.me/8801641386740" target="_blank" rel="noopener noreferrer" class="btn-primary">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.586 1.761.914 2.79.914 3.179 0 5.767-2.587 5.767-5.766.001-3.187-2.575-5.77-5.766-5.77zm3.397 8.188c-.144.405-.837.774-1.17.824-.312.045-.694.072-2.194-.551-1.921-.796-3.155-2.753-3.251-2.881-.096-.128-.772-1.027-.772-1.959s.484-1.391.657-1.579c.174-.188.38-.235.507-.235.126 0 .253.003.364.008.117.006.273-.044.427.327.159.385.546 1.332.593 1.43.048.097.08.21.016.338-.063.129-.095.21-.19.321-.096.112-.201.25-.287.336-.096.096-.197.2-.085.393.111.193.493.813 1.058 1.317.728.648 1.341.849 1.534.945.192.096.305.08.418-.048.113-.129.484-.563.613-.757.129-.193.257-.161.433-.096.177.064 1.125.53 1.317.627.193.096.321.144.369.225.047.08.047.469-.097.874z"/></svg>
+              <span>Message on WhatsApp</span>
+            </a>
+            <a href="mailto:mohammadrafi11375@gmail.com" class="btn-secondary">
+              <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+              <span>Email Me</span>
+            </a>
+            <a href="#hero" class="btn-ghost">
+              <span>Back to Top ↑</span>
+            </a>
+          </div>
+        </div>
+
+        <footer class="site-footer">
+          <div>
+            <strong>Mohammad Ruhul Amin (Rafi)</strong> · Department of EEE, JSTU
+          </div>
+          <div class="footer-contacts-links">
+            <a href="mailto:mohammadrafi11375@gmail.com">mohammadrafi11375@gmail.com</a>
+            <span>·</span>
+            <a href="https://wa.me/8801641386740" target="_blank" rel="noopener noreferrer">01641386740</a>
+            <span>·</span>
+            <a href="https://github.com/ruhulamin-jstu" target="_blank" rel="noopener noreferrer">github.com/ruhulamin-jstu</a>
+          </div>
+          <div>
+            © 2026 Mohammad Ruhul Amin. All rights reserved.
+          </div>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       CASE STUDY MODAL: Automated Water Tank Level Control System
+       ========================================================================== -->
+  <div class="modal-backdrop" id="waterTankModal" role="dialog" aria-modal="true" aria-labelledby="wtModalTitle">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div class="modal-content-wrap">
+        <div class="modal-header-tag">
+          <span class="dot" style="width:8px;height:8px;background:var(--cyan-400);border-radius:50%;display:inline-block;"></span>
+          <span>Circuit Simulation Sessional Case Study</span>
+        </div>
+
+        <h2 class="modal-title" id="wtModalTitle">
+          Automated Water Tank Level Control System Simulation using Matlab Simulink
+        </h2>
+
+        <div class="modal-image-showcase">
+          <img src="assets/images/water_tank_presentation.png" alt="Automated Water Tank Presentation Slide">
+        </div>
+
+        <div class="modal-meta-grid">
+          <div class="meta-item">
+            <div class="meta-label">Course Code & Title</div>
+            <div class="meta-value">EEE2108 — Circuit Simulation Sessional</div>
+          </div>
+          <div class="meta-item">
+            <div class="meta-label">Academic Department</div>
+            <div class="meta-value">Dept. of EEE, JSTU, Jamalpur</div>
+          </div>
+          <div class="meta-item">
+            <div class="meta-label">Supervised / Submitted To</div>
+            <div class="meta-value">Md. Mahfuzur Hayan, Lecturer, EEE</div>
+          </div>
+          <div class="meta-item">
+            <div class="meta-label">Primary Simulation Tools</div>
+            <div class="meta-value">MATLAB & Simulink Environment</div>
+          </div>
+        </div>
+
+        <h3 class="modal-section-title">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+          Team Members (Presented by)
+        </h3>
+        <div class="team-grid">
+          <div class="team-member-card is-self">
+            <span class="member-name">Muhammad Ruhul Amin ★</span>
+            <span class="member-id">ID: 24010627</span>
+          </div>
+          <div class="team-member-card">
+            <span class="member-name">Ahaduzaman Ananto</span>
+            <span class="member-id">ID: 24010623</span>
+          </div>
+          <div class="team-member-card">
+            <span class="member-name">Arpon Chaklader</span>
+            <span class="member-id">ID: 24010631</span>
+          </div>
+          <div class="team-member-card">
+            <span class="member-name">Naidia Islam Shahmony</span>
+            <span class="member-id">ID: 23211213</span>
+          </div>
+          <div class="team-member-card">
+            <span class="member-name">Abdullah Ali Arafat</span>
+            <span class="member-id">ID: 24010630</span>
+          </div>
+          <div class="team-member-card">
+            <span class="member-name">Zahid Hasan Shuvo</span>
+            <span class="member-id">ID: 24010621</span>
+          </div>
+        </div>
+
+        <h3 class="modal-section-title">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          Project Overview & Objectives
+        </h3>
+        <p class="modal-text">
+          Water tank monitoring is a fundamental building block in industrial automation and municipal water distribution. In manual systems, pump mismanagement frequently leads to power waste, dry-run damage, and catastrophic water overflow. This project models an automated, closed-loop liquid elevation regulator in MATLAB/Simulink that continuously compares current reservoir level against setpoint thresholds to dynamically govern pump operation.
+        </p>
+
+        <ul class="spec-list">
+          <li>
+            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+            <span><strong>Virtual Simulation Architecture:</strong> Models constant inflow, cross-sectional reservoir dynamics, and non-linear outflow characteristics.</span>
+          </li>
+          <li>
+            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+            <span><strong>Closed-Loop Level Feedback:</strong> Continuously senses water height using virtual transducer blocks to adjust control signals.</span>
+          </li>
+          <li>
+            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+            <span><strong>Overflow Detection & Cutoff:</strong> Integrated safety thresholding to cut off pump energization instantly when the water reaches critical capacity.</span>
+          </li>
+        </ul>
+
+        <h3 class="modal-section-title">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+          System Block Flow
+        </h3>
+        <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); padding: 16px; font-family: var(--font-mono); font-size: 13px; color: var(--cyan-400); text-align: center; margin-bottom: 20px;">
+          Set Point Target ➔ Error Comparator ➔ Controller ➔ Pump Actuator ➔ Water Reservoir ➔ Level Sensor (Feedback Loop) ➔ Overflow Protection Alert
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       CASE STUDY MODAL: Smart Regenerative Braking System
+       ========================================================================== -->
+  <div class="modal-backdrop" id="regenBrakingModal" role="dialog" aria-modal="true" aria-labelledby="rbModalTitle">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div class="modal-content-wrap">
+        <div class="modal-header-tag">
+          <span class="dot" style="width:8px;height:8px;background:var(--emerald-400);border-radius:50%;display:inline-block;"></span>
+          <span>Laboratory Hardware Prototype & Energy Recovery</span>
+        </div>
+
+        <h2 class="modal-title" id="rbModalTitle">
+          Smart Regenerative Braking System Prototype
+        </h2>
+
+        <!-- Facebook Video Demonstration Banner -->
+        <a href="https://www.facebook.com/share/v/14nFrAnRvMu/" target="_blank" rel="noopener noreferrer" class="modal-video-banner">
+          <div class="video-play-icon">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </div>
+          <div>
+            <h4>Watch Live Demonstration Video</h4>
+            <p>See the coupled DC motor dynamo generate regenerative energy during braking on Facebook</p>
+          </div>
+          <span class="video-badge">Watch Video ↗</span>
+        </a>
+
+        <!-- 3-Image Hardware Showcase -->
+        <div class="modal-gallery-grid">
+          <div class="modal-gallery-item">
+            <img src="assets/images/regenerative_braking_topview.jpg" alt="Top-Down Circuit & Coupled Motors Architecture">
+            <div class="modal-gallery-caption">Circuit Layout & Coupled Motors</div>
+          </div>
+          <div class="modal-gallery-item">
+            <img src="assets/images/regenerative_braking_hardware.png" alt="Hardware Bench Testing Setup">
+            <div class="modal-gallery-caption">Hardware Bench Testing</div>
+          </div>
+          <div class="modal-gallery-item">
+            <img src="assets/images/regenerative_braking_team.jpg" alt="EEE Research Team in Lab">
+            <div class="modal-gallery-caption">EEE Lab Research Team</div>
+          </div>
+        </div>
+
+        <div class="modal-meta-grid">
+          <div class="meta-item">
+            <div class="meta-label">Project Domain</div>
+            <div class="meta-value">Power Electronics & EV Dynamics</div>
+          </div>
+          <div class="meta-item">
+            <div class="meta-label">Laboratory Setting</div>
+            <div class="meta-value">EEE Department Laboratory, JSTU</div>
+          </div>
+          <div class="meta-item">
+            <div class="meta-label">Core Hardware Configuration</div>
+            <div class="meta-value">Dual Coupled DC Motors (Drive + Generator)</div>
+          </div>
+          <div class="meta-item">
+            <div class="meta-label">Controller & Switching</div>
+            <div class="meta-value">Microcontroller, Relay & DC-DC Converter</div>
+          </div>
+        </div>
+
+        <h3 class="modal-section-title">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+          EEE Laboratory Research Team
+        </h3>
+        <div class="team-grid">
+          <div class="team-member-card is-self">
+            <span class="member-name">Muhammad Ruhul Amin ★</span>
+            <span class="member-id">ID: 24010627 · JSTU</span>
+          </div>
+          <div class="team-member-card">
+            <span class="member-name">Zahid Hasan Shuvo</span>
+            <span class="member-id">ID: 24010621 · JSTU</span>
+          </div>
+          <div class="team-member-card">
+            <span class="member-name">Abdullah Ali Arafat</span>
+            <span class="member-id">ID: 24010630 · JSTU</span>
+          </div>
+          <div class="team-member-card">
+            <span class="member-name">Naidia Islam Shahmony</span>
+            <span class="member-id">ID: 23211213 · JSTU</span>
+          </div>
+          <div class="team-member-card">
+            <span class="member-name">Ahaduzaman Ananto</span>
+            <span class="member-id">ID: 24010623 · JSTU</span>
+          </div>
+          <div class="team-member-card">
+            <span class="member-name">Arpon Chaklader</span>
+            <span class="member-id">ID: 24010631 · JSTU</span>
+          </div>
+        </div>
+
+        <h3 class="modal-section-title">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+          System Architecture & Working Principle
+        </h3>
+        <p class="modal-text">
+          Conventional friction braking converts kinetic energy into wasted thermal heat while causing mechanical wear on brake rotors. This prototype demonstrates an intelligent regenerative braking mechanism:
+        </p>
+
+        <ul class="spec-list">
+          <li>
+            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+            <span><strong>Dual Mechanically Coupled DC Machines:</strong> The primary DC motor simulates vehicle momentum and drive torque, while the coupled secondary motor functions as a dynamo/generator.</span>
+          </li>
+          <li>
+            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+            <span><strong>Back-EMF & Kinetic Energy Conversion:</strong> Upon triggering the brake signal, the generator converts residual rotational inertia into induced electrical voltage.</span>
+          </li>
+          <li>
+            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+            <span><strong>Voltage Conditioning & Relay Charging Circuit:</strong> An intermediate buck-boost regulator stabilizes the fluctuating generator voltage to safely channel current back into battery storage.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       CASE STUDY MODAL: Automatic Plant Watering System
+       ========================================================================== -->
+  <div class="modal-backdrop" id="plantWateringModal" role="dialog" aria-modal="true" aria-labelledby="pwModalTitle">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div class="modal-content-wrap">
+        <div class="modal-header-tag">
+          <span class="dot" style="width:8px;height:8px;background:var(--emerald-400);border-radius:50%;display:inline-block;"></span>
+          <span>IoT & Automated Irrigation System</span>
+        </div>
+
+        <h2 class="modal-title" id="pwModalTitle">
+          Automatic Plant Watering & Smart Irrigation System
+        </h2>
+
+        <!-- Prototype Hardware Image Showcase -->
+        <div class="modal-image-showcase">
+          <img src="assets/images/plant_watering_prototype.jpg" alt="Automatic Plant Watering System Hardware Prototype Setup">
+        </div>
+
+        <div class="modal-meta-grid">
+          <div class="meta-item">
+            <div class="meta-label">Microcontroller Unit</div>
+            <div class="meta-value">Arduino Uno (ATmega328P)</div>
+          </div>
+          <div class="meta-item">
+            <div class="meta-label">Power Supply</div>
+            <div class="meta-value">18650 Li-ion Battery & Holder</div>
+          </div>
+          <div class="meta-item">
+            <div class="meta-label">Actuator & Reservoir</div>
+            <div class="meta-value">Mini Submersible DC Water Pump</div>
+          </div>
+          <div class="meta-item">
+            <div class="meta-label">Sensor & Switching</div>
+            <div class="meta-value">Soil Moisture Probe + 5V Relay</div>
+          </div>
+        </div>
+
+        <h3 class="modal-section-title">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          System Operation & Logic
+        </h3>
+        <p class="modal-text">
+          Designed to automate precision watering for agriculture and gardening. The system continuously measures soil conductivity and volumetric water content against calibrated thresholds. When soil dryness drops below the threshold, the microcontroller triggers a relay module to energize the submersible pump, delivering exact hydration and automatically stopping once moisture saturation is attained.
+        </p>
+
+        <ul class="spec-list">
+          <li>
+            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+            <span><strong>Threshold-Based Automated Irrigation:</strong> Completely eliminates underwatering and overwatering risks through autonomous sensor feedback.</span>
+          </li>
+          <li>
+            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+            <span><strong>Water & Energy Conservation:</strong> Minimizes water consumption by up to 50% compared to scheduled or manual watering routines.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       CV FULLSCREEN / PREVIEW MODAL
+       ========================================================================== -->
+  <div class="modal-backdrop" id="cvModal" role="dialog" aria-modal="true" aria-labelledby="cvModalTitle">
+    <div class="modal-dialog modal-dialog-lg">
+      <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div class="modal-content-wrap">
+        <div class="modal-header-tag">
+          <span class="dot" style="width:8px;height:8px;background:var(--cyan-400);border-radius:50%;display:inline-block;"></span>
+          <span>Official Curriculum Vitae</span>
+        </div>
+
+        <div class="cv-modal-header-row">
+          <div>
+            <h2 class="modal-title" id="cvModalTitle" style="margin-bottom:4px;">
+              Mohammad Ruhul Amin (Rafi)
+            </h2>
+            <p style="font-size:14px; color:var(--cyan-400); margin:0;">
+              B.Sc. in Electrical and Electronic Engineering · JSTU
+            </p>
+          </div>
+          <div class="cv-modal-actions">
+            <a href="assets/Mohammad_Ruhul_Amin_CV.pdf" download="Mohammad_Ruhul_Amin_CV.pdf" class="btn-primary" style="padding:10px 18px; font-size:14px;">
+              <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+              <span>Download PDF</span>
+            </a>
+            <a href="assets/Mohammad_Ruhul_Amin_CV.pdf" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="padding:10px 18px; font-size:14px;">
+              <span>Open in New Tab ↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="cv-modal-viewer">
+          <img src="assets/images/cv_preview.png" alt="Mohammad Ruhul Amin CV Document Full View" class="cv-modal-img">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
